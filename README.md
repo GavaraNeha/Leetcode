@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/Shinunogaeva/Leetcode/tree/master/0001-two-sum) |
 | [0013-roman-to-integer](https://github.com/Shinunogaeva/Leetcode/tree/master/0013-roman-to-integer) |
+| [0242-valid-anagram](https://github.com/Shinunogaeva/Leetcode/tree/master/0242-valid-anagram) |
 ## Binary Search
 |  |
 | ------- |
@@ -49,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Shinunogaeva/Leetcode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0058-length-of-last-word](https://github.com/Shinunogaeva/Leetcode/tree/master/0058-length-of-last-word) |
 | [0067-add-binary](https://github.com/Shinunogaeva/Leetcode/tree/master/0067-add-binary) |
+| [0242-valid-anagram](https://github.com/Shinunogaeva/Leetcode/tree/master/0242-valid-anagram) |
 ## Trie
 |  |
 | ------- |
@@ -57,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0015-3sum](https://github.com/Shinunogaeva/Leetcode/tree/master/0015-3sum) |
+| [0242-valid-anagram](https://github.com/Shinunogaeva/Leetcode/tree/master/0242-valid-anagram) |
 ## Stack
 |  |
 | ------- |
