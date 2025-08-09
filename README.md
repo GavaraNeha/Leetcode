@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0011-container-with-most-water](https://github.com/Shinunogaeva/Leetcode/tree/master/0011-container-with-most-water) |
 | [0014-longest-common-prefix](https://github.com/Shinunogaeva/Leetcode/tree/master/0014-longest-common-prefix) |
 | [0015-3sum](https://github.com/Shinunogaeva/Leetcode/tree/master/0015-3sum) |
+| [0016-3sum-closest](https://github.com/Shinunogaeva/Leetcode/tree/master/0016-3sum-closest) |
 ## Hash Table
 |  |
 | ------- |
@@ -36,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0011-container-with-most-water](https://github.com/Shinunogaeva/Leetcode/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/Shinunogaeva/Leetcode/tree/master/0015-3sum) |
+| [0016-3sum-closest](https://github.com/Shinunogaeva/Leetcode/tree/master/0016-3sum-closest) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Shinunogaeva/Leetcode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 ## Greedy
 |  |
@@ -59,6 +61,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0015-3sum](https://github.com/Shinunogaeva/Leetcode/tree/master/0015-3sum) |
+| [0016-3sum-closest](https://github.com/Shinunogaeva/Leetcode/tree/master/0016-3sum-closest) |
 | [0242-valid-anagram](https://github.com/Shinunogaeva/Leetcode/tree/master/0242-valid-anagram) |
 ## Stack
 |  |
