@@ -8,46 +8,44 @@ class Solution {
 public:
     int threeSumClosest(std::vector<int>& nums, int target) {
         int n = nums.size();
+        
+        // The problem constraints guarantee n >= 3, but this is a good practice.
         if (n < 3) {
-            return 0;
+            return 0; 
         }
 
-        // 1. Sort the array
+        // Sort the array to use the two-pointer technique.
         std::sort(nums.begin(), nums.end());
 
-        // 2. Initialize variables
+        // Initialize the closest sum with the sum of the first three elements.
         int closestSum = nums[0] + nums[1] + nums[2];
-        int minDiff = std::abs(closestSum - target);
 
-        // 3. Iterate through the array
+        // Iterate through the array, fixing the first element.
         for (int i = 0; i < n - 2; ++i) {
+            // Use two pointers for the rest of the array.
             int left = i + 1;
             int right = n - 1;
 
-            // 4. Two-pointer approach
             while (left < right) {
                 int currentSum = nums[i] + nums[left] + nums[right];
-                int currentDiff = std::abs(currentSum - target);
 
-                // 5. Compare and update the closest sum
-                if (currentDiff < minDiff) {
-                    minDiff = currentDiff;
+                // If the current sum is closer to the target, update closestSum.
+                if (std::abs(target - currentSum) < std::abs(target - closestSum)) {
                     closestSum = currentSum;
                 }
 
-                // 6. Adjust the pointers
+                // Adjust pointers based on the comparison with the target.
                 if (currentSum < target) {
                     left++;
                 } else if (currentSum > target) {
                     right--;
                 } else {
-                    // We found the exact target, no need to search further
-                    return target;
+                    // If the sum is exactly the target, it's the closest possible, so we can return immediately.
+                    return currentSum;
                 }
             }
         }
         
-        // 7. Return the result
         return closestSum;
     }
 };
